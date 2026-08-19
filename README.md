@@ -1,9 +1,6 @@
 # ARP-Attack-and-Network-Sniffing
 # Explore Network Sniffing and ARP Attacks
 
-#### NAME: RAMESH KRISHNAN
-#### REG NO: 212224220076
-
 # AIM:
 
 To explore network sniffing and ARP Attacks
@@ -29,38 +26,40 @@ In windows 7 give the command arp -a
 ## OUTPUT:
 
 
+
+
 From kali linux issue the command :
 sudo arpspoof -i eth0 -t <target system> <gateway>
-dsnifff
+## OUTPUT:
+
+<img width="633" height="393" alt="Screenshot 2026-02-05 221435" src="https://github.com/user-attachments/assets/2604047e-6fe8-4479-91a9-0a0e611c565e" />
+
+
+
+dsniff:
 In Metasploit open the ftp console as below. Also you can try other ftp websites ftp.vim.org
+## OUTPUT:
+
+
+
+ ![image](https://github.com/user-attachments/assets/55f49d9f-f41c-4953-a2af-c52ec2142a4c)
+
+
+
+
+
 In Kali issue the following commands:
 sudo dsnifff
+## OUTPUT:
 
-### Step1: Open the ettercap-pkexec in Kali
-<img width="1920" height="944" alt="exp4-1" src="https://github.com/user-attachments/assets/fc6dcaf0-3d25-45a2-bc54-d3dec8c48b27" />
 
-### Step2: Add Target 1 Host
-<img width="1920" height="945" alt="exp4-2" src="https://github.com/user-attachments/assets/2e13f1c0-f44a-4903-aa0d-01143852bf09" />
+![image](https://github.com/user-attachments/assets/5d0ad8c3-5284-4d33-8185-2afb56672162)
 
-### Step3: Add Target 2 Host
-<img width="1920" height="943" alt="exp4-3" src="https://github.com/user-attachments/assets/b1a1ea24-75cd-49c0-8792-df8ed7dde24e" />
-
-### Step4: Select ARP poisoning...
-<img width="1920" height="945" alt="exp4-4" src="https://github.com/user-attachments/assets/40c40345-d599-446e-bb8a-2b402e17d08c" />
-
-### Step5: Click OK on ARP poisoning... confirmation message
-<img width="1920" height="942" alt="exp4-5" src="https://github.com/user-attachments/assets/a84d7e70-c5f0-49b9-9117-5798f332925e" />
-
-### Step6: ARP poisoning victims
-<img width="1920" height="939" alt="exp4-6" src="https://github.com/user-attachments/assets/4ecc21fe-58cd-42df-bb53-6ce83419df03" />
 
 Invoke the wireshark and examine the various menus  and controls of the tool:
 
-### Step7: Open Wireshark and click ethO
-<img width="1920" height="937" alt="exp4-7" src="https://github.com/user-attachments/assets/a7b79486-c742-4af8-a8d9-ed42a4dbdd15" />
-
-### Step8: Duplicate use is detected
-<img width="1920" height="868" alt="exp4-8" src="https://github.com/user-attachments/assets/f1d42242-6efb-433d-a32e-8ef3d77ed5e9" />
+<img width="995" height="586" alt="Screenshot 2026-08-18 145336" src="https://github.com/user-attachments/assets/82dd59a9-1990-4493-be69-046af33afdb2" />
+<img width="1919" height="1008" alt="Screenshot 2026-08-18 145403" src="https://github.com/user-attachments/assets/13614431-dec2-4977-abdf-f6ec5e7cc77c" />
 
 
 ## RESULT:
